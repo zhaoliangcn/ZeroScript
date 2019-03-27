@@ -1,0 +1,6 @@
+#ifndef ZEROKEYWORD_H_INCLUDED
+#define ZEROKEYWORD_H_INCLUDED
+
+//const char * Z_DEFINE ="define";
+
+#endif // ZEROKEYWORD_H_INCLUDED

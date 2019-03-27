@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Zero" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Zero" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Zero" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-g" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/ZAst.h" />
+		<Unit filename="include/ZAstNode.h" />
+		<Unit filename="include/ZBlockObj.h" />
+		<Unit filename="include/ZExpressionObj.h" />
+		<Unit filename="include/ZFileLoader.h" />
+		<Unit filename="include/ZForStatementObj.h" />
+		<Unit filename="include/ZFunctionObj.h" />
+		<Unit filename="include/ZIfStatementObj.h" />
+		<Unit filename="include/ZReservedWord.h" />
+		<Unit filename="include/ZStatementObj.h" />
+		<Unit filename="include/ZSwitchStatementObj.h" />
+		<Unit filename="include/ZSymbolTable.h" />
+		<Unit filename="include/ZTerminalChar.h" />
+		<Unit filename="include/ZWileStatementObj.h" />
+		<Unit filename="include/ZeroKeyword.h" />
+		<Unit filename="include/ZeroLex.h" />
+		<Unit filename="include/objectbase.h" />
+		<Unit filename="include/zeroengine.h" />
+		<Unit filename="include/zstring.h" />
+		<Unit filename="include/zstringbase.h" />
+		<Unit filename="src/ZAst.cpp" />
+		<Unit filename="src/ZAstNode.cpp" />
+		<Unit filename="src/ZBlockObj.cpp" />
+		<Unit filename="src/ZExpressionObj.cpp" />
+		<Unit filename="src/ZFileLoader.cpp" />
+		<Unit filename="src/ZForStatementObj.cpp" />
+		<Unit filename="src/ZFunctionObj.cpp" />
+		<Unit filename="src/ZIfStatementObj.cpp" />
+		<Unit filename="src/ZStatementObj.cpp" />
+		<Unit filename="src/ZSwitchStatementObj.cpp" />
+		<Unit filename="src/ZSymbolTable.cpp" />
+		<Unit filename="src/ZWileStatementObj.cpp" />
+		<Unit filename="src/ZeroLex.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/objectbase.cpp" />
+		<Unit filename="src/zeroengine.cpp" />
+		<Unit filename="src/zstring.cpp" />
+		<Unit filename="src/zstringbase.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
