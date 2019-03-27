@@ -341,3 +341,119 @@
 
 1467364151 d:\zero\include\zwilestatementobj.h
 
+1512966289 source:g:\zeroscript\src\main.cpp
+	<istream>
+	<iostream>
+	"zstring.h"
+	"zerolex.h"
+	"ZFileLoader.h"
+
+1514278153 g:\zeroscript\include\zstring.h
+	"zstringbase.h"
+
+1467180135 g:\zeroscript\include\zstringbase.h
+	<windows.h>
+
+1481004205 g:\zeroscript\include\zerolex.h
+	"zstring.h"
+	"ZAst.h"
+	"ZReservedWord.h"
+
+1467363838 g:\zeroscript\include\zast.h
+	"ZAstNode.h"
+
+1467363884 g:\zeroscript\include\zastnode.h
+
+1481008557 g:\zeroscript\include\zreservedword.h
+
+1467299769 g:\zeroscript\include\zfileloader.h
+	"zstring.h"
+
+1467180135 source:g:\zeroscript\src\objectbase.cpp
+	"objectbase.h"
+
+1467120343 g:\zeroscript\include\objectbase.h
+	"zstring.h"
+
+1467363513 source:g:\zeroscript\src\zast.cpp
+	"ZAst.h"
+
+1467363821 source:g:\zeroscript\src\zastnode.cpp
+	"ZAstNode.h"
+
+1467364069 source:g:\zeroscript\src\zblockobj.cpp
+	"ZBlockObj.h"
+
+1467364069 g:\zeroscript\include\zblockobj.h
+
+1467117950 source:g:\zeroscript\src\zeroengine.cpp
+	"zeroengine.h"
+
+1467117950 g:\zeroscript\include\zeroengine.h
+
+1481008645 source:g:\zeroscript\src\zerolex.cpp
+	"ZeroLex.h"
+	"ZeroKeyword.h"
+	"ZTerminalChar.h"
+	<ctype.h>
+	<stdio.h>
+
+1481004611 g:\zeroscript\include\zerokeyword.h
+
+1467623191 g:\zeroscript\include\zterminalchar.h
+
+1467364008 source:g:\zeroscript\src\zexpressionobj.cpp
+	"ZExpressionObj.h"
+
+1467364008 g:\zeroscript\include\zexpressionobj.h
+
+1553652793 source:g:\zeroscript\src\zfileloader.cpp
+	"ZFileLoader.h"
+	<windows.h>
+	<iostream>
+	<fstream>
+
+1467364183 source:g:\zeroscript\src\zforstatementobj.cpp
+	"ZForStatementObj.h"
+
+1467364183 g:\zeroscript\include\zforstatementobj.h
+
+1467364088 source:g:\zeroscript\src\zfunctionobj.cpp
+	"ZFunctionObj.h"
+
+1467364088 g:\zeroscript\include\zfunctionobj.h
+
+1467364131 source:g:\zeroscript\src\zifstatementobj.cpp
+	"ZIfStatementObj.h"
+
+1467364131 g:\zeroscript\include\zifstatementobj.h
+
+1467364044 source:g:\zeroscript\src\zstatementobj.cpp
+	"ZStatementObj.h"
+
+1467364044 g:\zeroscript\include\zstatementobj.h
+
+1553653274 source:g:\zeroscript\src\zstring.cpp
+	<string>
+	"zstring.h"
+	<regex>
+	<string.h>
+
+1467118455 source:g:\zeroscript\src\zstringbase.cpp
+	"zstringbase.h"
+
+1467364212 source:g:\zeroscript\src\zswitchstatementobj.cpp
+	"ZSwitchStatementObj.h"
+
+1467364211 g:\zeroscript\include\zswitchstatementobj.h
+
+1467364300 source:g:\zeroscript\src\zsymboltable.cpp
+	"ZSymbolTable.h"
+
+1467364300 g:\zeroscript\include\zsymboltable.h
+
+1467364151 source:g:\zeroscript\src\zwilestatementobj.cpp
+	"ZWileStatementObj.h"
+
+1467364151 g:\zeroscript\include\zwilestatementobj.h
+

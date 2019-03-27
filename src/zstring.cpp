@@ -27,18 +27,21 @@ ZString::ZString(const ZString& other)
 {
     Buffer = NULL;
     length = 0;
+    spacesize = 0;
     *this = other;
 }
 ZString::ZString(const char * initial)
 {
     Buffer = NULL;
     length = 0;
+    spacesize = 0;
     *this=initial;
 }
 ZString::ZString(const char initial)
 {
     Buffer = NULL;
     length = 0;
+    spacesize = 0;
     *this=initial;
 }
 bool ZString::operator !=(const char * other)
